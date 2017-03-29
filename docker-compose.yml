@@ -1,0 +1,10 @@
+version: '2'
+
+services: 
+  cnt7-dev:
+    build: ./
+    image: gse/cnt7-dev
+    volumes:
+      - /home/gse/IdeaProjects:/root/dev
+
+
