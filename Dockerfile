@@ -27,9 +27,6 @@ RUN wget ${URL_GIT_SRC} -O ${GIT_ARCH} \
  && rm -rf ${GIT_ARCH} ${GIT_SRC}
 
 
-
-#ENV PATH /usr/local/samba/sbin:/usr/local/samba/bin:$PATH
-
 VOLUME [ "/root/dev" ]
 
 COPY entrypoint.sh /

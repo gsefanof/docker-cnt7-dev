@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# allow arguments to be passed to openfire launch
+# allow arguments to be passed 
 if [[ ${1:0:1} = '-' ]]; then
   EXTRA_ARGS="$@"
   set --

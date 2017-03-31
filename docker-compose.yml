@@ -5,6 +5,6 @@ services:
     build: ./
     image: gse/cnt7-dev
     volumes:
-      - /home/gse/IdeaProjects:/root/dev
+      - ~/IdeaProjects:/root/dev
 
 
